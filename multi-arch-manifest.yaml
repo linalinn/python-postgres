@@ -4,7 +4,7 @@ manifests:
     platform:
       architecture: amd64
       os: linux
-  - image: linalinn/python-postgres:latest-arm32v7
+  - image: linalinn/python-postgres:latest-arm
     platform:
       architecture: arm
       os: linux
