@@ -1,10 +1,10 @@
 image: linalinn/python-postgres:latest
 manifests:
-  - image: linalinn/python-postgres:latest-amd64
+  - image: linalinn/python-postgres:latest
     platform:
       architecture: amd64
       os: linux
-  - image: linalinn/python-postgres:latest-arm
+  - image: linalinn/python-postgres:latest
     platform:
       architecture: arm
       os: linux
